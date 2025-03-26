@@ -1,1 +1,121 @@
+/* Ant Design 覆盖样式 */
+.ant-layout {
+  background-color: #f5f7fa;
+}
 
+.ant-layout-header {
+  height: 64px;
+  line-height: 64px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
+}
+
+.ant-tabs-nav {
+  margin-bottom: 0 !important;
+  background-color: #fff;
+}
+
+.ant-tabs-tab {
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.ant-menu-horizontal {
+  border-bottom: none;
+}
+
+/* 卡片标题样式 */
+.ant-card-head {
+  min-height: auto !important;
+  background-color: transparent !important;
+}
+
+.ant-card-head-title {
+  padding: 8px 0 !important;
+}
+
+.ant-card .ant-typography {
+  margin-bottom: 0 !important;
+}
+
+/* 表格样式 */
+.ant-table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ant-table-thead>tr>th {
+  background-color: #f5f7fa !important;
+  font-weight: 500;
+  color: #333;
+  padding: 12px 16px !important;
+  font-size: 13px;
+  border-bottom: 1px solid #e8e8e8 !important;
+}
+
+.ant-table-tbody>tr>td {
+  padding: 12px 16px !important;
+  font-size: 13px;
+}
+
+.ant-typography {
+  color: #333;
+}
+
+/* 自定义样式 */
+.page-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 24px;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.ocean-freight-page {
+  max-width: 100%;
+}
+
+.card-container {
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+/* 渐变背景 */
+.gradient-background {
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4f0f7 100%);
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+  .ant-table {
+    font-size: 12px;
+  }
+
+  .section-title {
+    font-size: 14px !important;
+  }
+
+  .ant-tabs-tab {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  .dot-item {
+    font-size: 12px;
+  }
+}
